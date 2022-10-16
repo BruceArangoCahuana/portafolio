@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>contacto</title>
+</head>
+<body class="bg-gray-100">
+    <header class="bg-white h-100 p-3">
+        <div class="container mx-auto ms:max-w-md">
+            <nav  class="md:flex-row md:flex md:justify-between items-center flex-col justify-center text-center">
+                <h1 class="text-indigo-600 font-extrabold text-2xl uppercase">Porta<span class="text-black">folio</span></h1>
+    
+                <ul class="md:flex md:flex-row flex-row flex justify-center">
+                    <li class="font-bold font-lg">
+                       <a href="/">Inicio</a> 
+                    </li>
+                    
+                    <li class="ml-4 font-bold font-lg text-indigo-600">
+                        contactame
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container mx-auto ms:max-w-md  h-96 mt-5 mb-5">
+        <form action="#" class="w-1/2 bg-white shadow m-auto">
+            <div class="flex items-center justify-between p-3 space-x-6">
+                <div class="w-1/2 space-y-2">
+                    <label for="nombre" class="font-bold">Tu nombre:</label>
+                    <input type="text" name="nombre" placeholder="Escribe tu nombre"class="border-solid border-2 border-gray-300 w-full py-2" id="nombre">
+                </div>
+
+                <div class="w-1/2 space-y-2">
+                    <label for="email" class="font-bold">Tu Correo:</label>
+                    <input type="text" name="email" placeholder="Escribe tu correo" class="border-solid border-2 border-gray-300 w-full py-2" id="email">
+                </div>
+            </div>
+            <div class="p-3 space-y-2">
+                <label for="mensaje" class="font-bold">Tu Mensaje:</label>
+                <textarea name="mensaje" class="w-full border-solid border-2 border-gray-300" id="mensaje" style="min-height: 200px;"></textarea>
+            </div>
+        </form>
+    </div>
+    
+    <footer class="bg-indigo-600 h-80 flex items-center justify-center">
+        <div class="container mx-auto ms:max-w-md mb-5 space-y-5 p-3">
+            <h2 class="text-3xl text-white text-center font-bold ">Living, learning, & leveling up one day at a time
+            
+            </h2>
+            <ul class="text-center flex items-center justify-center">
+                <li>
+                    <i class="fa-brands fa-linkedin text-white text-4xl border-b-4 border-white-500 hover:cursor-pointer"></i>
+                </li>
+                <li class="ml-3">
+                    <i class="fa-brands fa-square-instagram text-white text-4xl border-b-4 border-white-500 hover:cursor-pointer"></i>
+                </li>
+            </ul>
+            <div class="flex justify-center items-center">
+                <p class="text-center text-white text-sm font-semibold">Creado con</p><img src="img/tailwindcss-logotype.svg" alt="logo" class="w-36 ml-3">
+            </div>
+        </div>
+        
+     </footer>
+     <script src="https://kit.fontawesome.com/d2bd450a71.js" crossorigin="anonymous"></script>
+</body>
+</html>
