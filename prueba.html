@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Api</title>
+</head>
+<body class="bg-gray-100">
+    <header class="bg-white h-100 p-3">
+        <div class="container mx-auto ms:max-w-md">
+            <nav  class="md:flex-row md:flex md:justify-between items-center flex-col justify-center text-center">
+                <h1 class="text-indigo-600 font-extrabold text-2xl uppercase">Porta<span class="text-black">folio</span></h1>
+    
+                <ul class="md:flex md:flex-row flex-row flex justify-center">
+                    <li class="font-bold font-lg">
+                       <a href="#proyecto">proyectos</a> 
+                    </li>
+                    <li class="font-bold font-lg ml-4">
+                        <a href="#certificado">certificado</a> 
+                     </li>
+                     <li class="font-bold font-lg ml-4">
+                        <a href="/api">Api</a> 
+                     </li>
+                    <li class="ml-4 font-bold font-lg text-indigo-600">
+                        <a href="contacto.html">contactame</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container mx-auto ms:max-w-md">
+        <h2 class="font-bold mt-6 text-3xl">Desarrollo del portafolio</h2>
+        <div class="md:flex md:flex-row flex flex-col justify-between mt-2">
+           <div class="w-full md:w-1/2 bg-white shadow rounded-md px-2 py-3">
+            <h2 class="font-bold text-2xl text-indigo-600">Desarrollo</h2>
+            <p class="text-lg font-semibold" style="text-align: justifyx;">
+                Para el desarrollo de esta proyecto me propuse realizar
+                mi propio servicio web creado en <span class="text-indigo-600 font-bold">Node.js</span> y  <span class="text-indigo-600 font-bold">MySQL</span> para el almacenamientos de los datos, contemplando las diferentes tablas y relaciones que existen entre ellos.
+                <br />
+                Para ello creamos varios endpoint donde se mostrara el resultadon en formato <span class="text-green-500 font-bold">JSON</span>
+            </p>
+           </div>
+           <div class="w-full md:w-1/3 bg-white shadow rounded-md px-2 py-3">
+            <h2 class="font-bold text-2xl text-indigo-600">Notas</h2>
+            <ul class="leading-7">
+                <li>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, error.</p>
+                </li>
+                <hr>
+                <li>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, error.</p>
+                </li>
+                <hr>
+                <li>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, error.</p>
+                </li>
+            </ul>
+           </div>
+        </div>
+
+        <div class="bg-white py-5 px-3 h-auto shadow rounded-md mb-5 mt-10 mx-auto w-full">
+            <ul class="space-y-6">
+                
+                <li class="">
+                    <h2 class="font-bold text-green-600 py-2 bg-green-100 border border-green-500 px-2">/Proyecto <span class="rounded-md border  border-green-500 text-white bg-green-500 px-3">Get</span></h2>
+                    <section class="bg-white h-auto py-3 px-2 md:flex md:flex-row flex-col flex items-center">
+                       <span class="font-bold">http://localhost/</span>
+                       <div class="flex flex-row justify-center">
+                        <input type="text" class="border border-gray-300">
+                        <button class="bg-blue-400 text-white md:px-3 py-1 w-100 font-bold rounded-r-md">Enviar</button>
+                       </div>
+
+                    </section>
+                    <div class="h-auto bg-black">
+                        <pre class="text-white">
+                            [
+                                {
+                                   "nombre":"Plataforma de Empleo DevJob" 
+                                },
+                                {
+                                    "nombre":"Plataforma de Empleo DevJob" 
+                                 }
+                            ]
+                        </pre>
+                    </div>
+                </li>
+                <li class="">
+                    <h2 class="font-bold text-green-600 py-2 bg-green-100 border border-green-500 px-2">/portafolio <span class="rounded-md border  border-green-500 text-white bg-green-500 px-3">Get</span></h2>
+                    <section class="bg-white h-auto py-3 px-2 md:flex md:flex-row flex-col flex items-center">
+                        <span class="font-bold">http://localhost/</span>
+                        <div class="flex flex-row justify-center">
+                         <input type="text" class="border border-gray-300">
+                         <button class="bg-blue-400 text-white px-3 py-1 font-bold rounded-r-md">Enviar</button>
+                        </div>
+ 
+                     </section>
+                    <div class="h-auto bg-black">
+                        <pre class="text-white">
+                            [
+                                {
+                                   "nombre":"Plataforma de Empleo DevJob" 
+                                },
+                                {
+                                    "nombre":"Plataforma de Empleo DevJob" 
+                                 }
+                            ]
+                        </pre>
+                    </div>
+                </li>
+                <li class="">
+                    <h2 class="font-bold text-green-600 py-2 bg-green-100 border border-green-500 px-2">/certificados <span class="rounded-md border  border-green-500 text-white bg-green-500 px-3">Get</span></h2>
+                    <section class="bg-white h-auto py-3 px-2 md:flex md:flex-row flex-col flex items-center">
+                        <span class="font-bold">http://localhost/</span>
+                        <div class="flex flex-row justify-center">
+                         <input type="text" class="border border-gray-300">
+                         <button class="bg-blue-400 text-white px-3 py-1 font-bold rounded-r-md">Enviar</button>
+                        </div>
+ 
+                     </section>
+                    <div class="h-auto bg-black">
+                        <pre class="text-white">
+                            [
+                                {
+                                   "nombre":"Plataforma de Empleo DevJob" 
+                                },
+                                {
+                                    "nombre":"Plataforma de Empleo DevJob" 
+                                 }
+                            ]
+                        </pre>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
